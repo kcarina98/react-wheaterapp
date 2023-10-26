@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px 30px;
+  margin: 0 20px;
+  color: white;
+}
+
+.active {
+  background-color: rgba(200, 215, 249, 0.461);
+  color: white;
+  border: none;
+}
+
+@media only screen and (max-width: 576px) {
+  header {
+    flex-direction: column;
+  }
+
+  a {
+    margin: 5px 0;
+  }
+}
